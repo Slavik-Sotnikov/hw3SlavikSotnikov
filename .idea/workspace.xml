@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="776b8173-930a-4710-8344-edb4532bc7d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SxrQJH2GY54UL1mIGUVbsgpegF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="776b8173-930a-4710-8344-edb4532bc7d4" name="Default Changelist" comment="" />
+      <created>1572516069455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572516069455</updated>
+      <workItem from="1572516071485" duration="11407000" />
+      <workItem from="1572586312727" duration="24498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="329" y="172" key="SettingsEditor" timestamp="1572516410974">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="329" y="172" key="SettingsEditor/0.27.1680.1023@0.27.1680.1023" timestamp="1572516410974" />
+    <state x="900" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1572586314001">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="900" y="394" key="com.intellij.ide.util.TipDialog/0.27.1680.1023@0.27.1680.1023" timestamp="1572586314001" />
+    <state x="504" y="246" key="run.anything.popup" timestamp="1572520962060">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="504" y="246" key="run.anything.popup/0.27.1680.1023@0.27.1680.1023" timestamp="1572520962060" />
+  </component>
+</project>

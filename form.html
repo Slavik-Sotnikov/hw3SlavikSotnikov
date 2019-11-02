@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="#">
+        <article>
+            <h1>Урок "Формы": теги и их атрибуты.</h1>
+            <h2> Расскажите немного о себе... </h2>
+            <p> Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленые</p>
+            <section>
+                <h4 class="first">Коротко о себе:</h4>
+                <label for="firstName">
+                    Имя:
+                    <input type="text" id="firstName">
+                </label>
+                <label for="secondName">
+                    Фамилия:
+                    <input type="text" id="secondName">
+                </label>
+                <p class="inline">Пол:</p>
+                <label class="inline" for="man"><input type="radio" name="sex" value="" id="man">мужской</label>
+                <label class="inline" for="woman"><input type="radio" name="sex" value="" id="woman">женский</label>
+                <label for="age">
+                    Возраст:<input type="text" id="age">лет
+                </label>
+            </section>
+            <section>
+                <div class="container">
+                    <h4 class="first"> Подробнее о себе </h4>
+                    <label><input type="radio" name="young" value="" id="youngMan"> Молодой Человек</label>
+                    <label><input type="radio" name="young" value="" id="youngWoman">Девушка</label>
+                    <label>
+                        <input type="text" name="" id="birthdate"> Дата Рождения
+                    </label>
+                    <label>
+                        <input type="text" name="" id="family"> Семейное положение
+                    </label>
+                    <label>
+                        <input type="text" name="" id="social"> Социальный статус
+                    </label>
+                    <label>
+                        <input type="text" name="" id="home"> Местожительство
+                    </label>
+                </div>
+                <div class="container">
+                    <h4> Что вы обычно делаете на выходных: </h4>
+                    <label><input type="checkbox" name="pastime" value="" id="sleep">Сплю</label>
+                    <label><input type="checkbox" name="pastime" value="" id="walk">Гуляю с друзьями</label>
+                    <label><input type="checkbox" name="pastime" value="" id="fishing">Хожу на рыбалку</label>
+                    <label><input type="checkbox" name="pastime" value="" id="games">Играю в игры</label>
+                </div>
+                <div class="container">
+                    <h4>Рассказать о формах в книге , посвященной HTML:</h4>
+                    <select>
+                        <option>Site frequency:</option>
+                        <option>First Option</option>
+                        <option>Second Option</option>
+                        <option>Third Option</option>
+                    </select>
+                </div>
+                <div class="container">
+                    <h4>Сколько книг вы прочитали за жизнь:</h4>
+                    <label for="zeroTen"><input type="radio" name="booksNumber" value="0-10" id="zeroTen"> 0-10</label>
+                    <label for="elevenTwelwe"><input type="radio" name="booksNumber" value="11-20" id="elevenTwelwe">11-20 </label>
+                    <label for="twfifteen"><input type="radio" name="booksNumber" value="21-50" id="twfifteen">21-50 </label>
+                    <label for="fiftyplus"><input type="radio" name="booksNumber" value="50+" id="fiftyplus">50+ </label>
+                </div>
+                <div class="container">
+                    <h4>Ваши комментарии:</h4>
+                    <textarea name="" contenteditable="false">
+                    </textarea>
+                </div>
+            </section>
+            <section>
+                    <div class="container">
+                        <h4 class="first">И в заключении</h4>
+                        <input type="text" placeholder="Это поле было введено до вас" disabled="disabled">
+                        <label for="email">Email:</label><input type="email" id="email">
+                    </div>
+                    <div class="container">
+                        <h3>Хотите подписаться на самую модную рассылку спама?</h3>
+                        <label><input type="checkbox" name="spam" id="equipment">Оборудование</label>
+                        <label><input type="checkbox" name="spam" id="food">Как приготовить обеды</label>
+                        <label><input type="checkbox" name="spam" id="million">Заработай миллион за два дня!</label>
+                    </div>
+                    <div class="container">
+                        <h3>На сколько сложная задача:</h3>
+                        <label><input type="radio" name="howHard" id="notHard"> Совсем нет</label>
+                        <label><input type="radio" name="howHard" id="soSo">Так себе</label>
+                        <label><input type="radio" name="howHard" id="Hard">Еле справились</label>
+                    </div>
+            </section>
+        </article>
+        <button>Отправить</button>
+    </form>
+</body>
+</html>
